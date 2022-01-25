@@ -22,21 +22,56 @@
 
 #### FSF: FSF Free Software Definition
 
-
+- Vapaata ohjelmistoa (free software) ei kuulu ymmärtää ilmaisena ateriana, vaan sananvapautena.
+- Vapaa ohjelmisto vaatii vapaan käytön, ohjelman vapaan tutkimisen, jakamisen vapauden ja vapauden jakaa muokattuja versioita.
+- Vapaa ohjelmisto ei tarkoita että se ei olisi kaupallista.
 
 #### Karvinen 2021: Install Debian on VirtualBox
 
-
+- Lataa Debian [täältä](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current-live/amd64/iso-hybrid/).
+- Lataa VirtualBox ja valitse sen menusta Machine: New...
+- Luo virtuaalinen kovalevy.
+- Aseta Debian ISO Image virtuaaliseksi CD-ROM-levyksi.
+- Käynnistä ja valitse LIVE.
+- Suorita asennus ja valitse hyvä salasana.
+- Kirjaudu sisään.
 
 #### Karvinen 2016: Raportin kirjoittaminen
 
-
+- Raportoi täsmällisesti ja samaan aikaan kun teet.
+- Hyvä raportti on Toistettava, Täsmällinen, Helppolukuinen ja se viittaa lähteisiin.
+- Muista lisätä vakiotekstejä.
+- Vältä pahoja mokia, kuten turhaa sepittämistä.
 
 #### Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Governance Mechanisms: 5.1.1 - 5.1.4 (sivu 113 - 121)
 
-
+- Avoin lähdekoodi on vapaa käyttää, vapaa kopioida, vapaa muokata ja siinä on avoin lähdekoodi.
+- Avoin lähdekoodi ei ole missään nimessä tekijänoikeuksien vastainen.
+- Historiallisesta perspektiivistä avoin lähdekoodi voidaan jakaa neljään isoon lisenssikategoriaan: GNU-, akateemiset-, yhteisö- ja yrityslisenssit
 
 ### a) Asenna Linux
+
+#### Linux VirtualBoxiin
+
+Ensimmäisenä asensin Debianin VirtualBoxiin.
+
+Asetin Debian ISO Imagen virtuaaliseksi CD-ROM-levyksi.
+
+#### Käynnistys
+
+Käynnistin virtuaalisen Linuxin ja valitsin LIVEn.
+
+Kokeilin Linuxin toimivuutta menemällä työpydältä selaimeen TeroKarvinenCom:iin. Tämän avulla sain selville hiiren, näppäimistön, verkon ja näytön toimivuuden.
+
+#### Debianin asennus
+
+Suoritin Debianin asennuksen, valitsin hyvän salasanan ja käynnistin Linuxin uudelleen.
+
+#### Ensimmäinen sisäänkirjautuminen ja askeleet
+
+Suoritin ensimmäisen sisäänkirjautumisen, ja selvitin toimivuuden uudelleen. Kaikki toimii niin kuin pitääkin.
+
+Avasin terminaalin ja tein tarvittavat alkutoimenpiteet.
 
 ### b) Listaa testaamasi koneen rauta
 
@@ -48,3 +83,11 @@
 ## Lähteet
 
 Tero Karvinen - [h1](https://terokarvinen.com/2021/linux-palvelimet-ict4tn021-3018/#h1)
+
+[FSF: FSF Free Software Definition](https://www.gnu.org/philosophy/free-sw.html)
+
+[Karvinen 2021: Install Debian on VirtualBox](https://terokarvinen.com/2021/install-debian-on-virtualbox/)
+
+[Karvinen 2016: Raportin kirjoittaminen](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
+
+[Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Governance Mechanisms](http://lib.tkk.fi/Diss/2005/isbn9529187793/isbn9529187793.pdf)
