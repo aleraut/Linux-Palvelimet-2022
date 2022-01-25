@@ -141,15 +141,15 @@ Kolmantena ohjelmana asensin VLC media playerin, joka on ilmainen avoimen lähde
 
 #### Thunderbird
 
-Thunderbird on avoimen lähdekoodin cross-platform sähköposti ja kalenteri sovellus. Avoimen lähdekoodin pitää noudattaa tiettyjä sääntöjä. esimerkiksi sen pitää olla kaikille vapaassa käytössä.
+Thunderbird on avoimen lähdekoodin cross-platform sähköposti ja kalenteri sovellus. Avoimen lähdekoodin pitää noudattaa tiettyjä sääntöjä. esimerkiksi sen pitää olla kaikille vapaassa käytössä ja sen lähdekoodin pitää olla kaikkille löydettävissä.
 
 #### Krita
 
-Krita on vapaa ja avoimen lähdekoodin paint ohjelma. Sen on tehnyt artistit jotka haluavat parhaat taidetyökalut kaikille. Avoimen lähdekoodin pitää noudattaa tiettyjä sääntöjä. esimerkiksi sen pitää olla kaikille vapaassa käytössä.
+Krita on vapaa ja avoimen lähdekoodin paint ohjelma. Sen on tehnyt artistit jotka haluavat parhaat taidetyökalut kaikille. Avoimen lähdekoodin pitää noudattaa tiettyjä sääntöjä, kuten on mainittu ylempänä.
 
 #### VLC media player
 
-VLC on vapaa ja avoimen lähdekoodin multimediasoitin. Kaikki ovat vapaita käyttämään sitä ilmaiseksi, mutta sillä on omistaja. Avoimen lähdekoodin pitää noudattaa tiettyjä sääntöjä. esimerkiksi sen pitää olla kaikille vapaassa käytössä.
+VLC on vapaa ja avoimen lähdekoodin multimediasoitin. Kaikki ovat vapaita käyttämään sitä ilmaiseksi, mutta sillä on omistaja. Avoimen lähdekoodin pitää noudattaa tiettyjä sääntöjä, kuten yllä mainittu.
 
 
 ## Lähteet
