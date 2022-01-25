@@ -55,29 +55,101 @@
 
 Ensimmäisenä asensin Debianin VirtualBoxiin.
 
+![](kuvat/create.png)
+
+![](kuvat/harddisk.png)
+
 Asetin Debian ISO Imagen virtuaaliseksi CD-ROM-levyksi.
+
+![](kuvat/debiancd.png)
 
 #### Käynnistys
 
 Käynnistin virtuaalisen Linuxin ja valitsin LIVEn.
 
+![](kuvat/startup.png)
+
+![](kuvat/desktop.png)
+
 Kokeilin Linuxin toimivuutta menemällä työpydältä selaimeen TeroKarvinenCom:iin. Tämän avulla sain selville hiiren, näppäimistön, verkon ja näytön toimivuuden.
+
+![](kuvat/testi.png)
 
 #### Debianin asennus
 
 Suoritin Debianin asennuksen, valitsin hyvän salasanan ja käynnistin Linuxin uudelleen.
 
+![](kuvat/debianinstall.png)
+
+![](kuvat/installing.png)
+
+![](kuvat/alldone.png)
+
 #### Ensimmäinen sisäänkirjautuminen ja askeleet
 
-Suoritin ensimmäisen sisäänkirjautumisen, ja selvitin toimivuuden uudelleen. Kaikki toimii niin kuin pitääkin.
+Suoritin ensimmäisen sisäänkirjautumisen ja selvitin toimivuuden uudelleen.
+
+![](kuvat/firstlogin.png)
 
 Avasin terminaalin ja tein tarvittavat alkutoimenpiteet.
 
+![](kuvat/terminal.png)
+
+![](kuvat/firewall.png)
+
 ### b) Listaa testaamasi koneen rauta
+
+#### sudo lshw
+
+'sudo lshw -short -sanitize' komento ei toiminut, jonka takia jouduin ensin asentaa lshw paketin.
+
+![](kuvat/lshw.png)
+
+Komennolla 'sudo lshw -short -sanitize' terminaaliin avautui lista VirtualBoxin käyttämästä laitteistosta. Ainoastaan prosessori "AMD Ryzen 5" näyttää olevan oman tietokoneeni laitteistoa, sillä muut laitteistot näyttävät olevan VirtualBoxin omia joita en osaa enempää avata.
+
+![](kuvat/laitteisto.png)
 
 ### c) Asenna kolme itsellesi uutta ohjelmaa
 
+#### Thunderbird
+
+Ensimmäiseksi ohjelmaksi löysin sähköposti ohjelman Thunderbirdin, josta en ole koskaan ennen edes kuullut. Ohjelma on mozillan oma sähköposti ohjelma, joka toimii melko samalla tavalla kuin microsoftin ja googlen ohjelmat.
+
+![](kuvat/thunderbird.png)
+
+![](kuvat/thunderbirdlinux.png)
+
+#### Krita
+
+Toiseksi ohjelmaksi asensin Krita nimisen paint ohjelman, ja se vaikuttaa helppokäyttöiseltä ja melko monipuoliselta.
+
+![](kuvat/installingkrita.png)
+
+![](kuvat/krita.png)
+
+![](kuvat/kritalinux.png)
+
+#### VLC media player
+
+Kolmantena ohjelmana asensin VLC media playerin, joka on ilmainen avoimen lähdekoodin multimediasoitin.
+
+![](kuvat/vlc.png)
+
+![](kuvat/vlclinux.png)
+
 ### d) Mitä lisenssiä kukin näistä ohjelmista käyttää?
+
+#### Thunderbird
+
+Thunderbird on avoimen lähdekoodin cross-platform sähköposti ja kalenteri sovellus. Avoimen lähdekoodin pitää noudattaa tiettyjä sääntöjä. esimerkiksi sen pitää olla kaikille vapaassa käytössä.
+
+#### Krita
+
+Krita on vapaa ja avoimen lähdekoodin paint ohjelma. Sen on tehnyt artistit jotka haluavat parhaat taidetyökalut kaikille. Avoimen lähdekoodin pitää noudattaa tiettyjä sääntöjä. esimerkiksi sen pitää olla kaikille vapaassa käytössä.
+
+#### VLC media player
+
+VLC on vapaa ja avoimen lähdekoodin multimediasoitin. Kaikki ovat vapaita käyttämään sitä ilmaiseksi, mutta sillä on omistaja. Avoimen lähdekoodin pitää noudattaa tiettyjä sääntöjä. esimerkiksi sen pitää olla kaikille vapaassa käytössä.
 
 
 ## Lähteet
@@ -91,3 +163,9 @@ Tero Karvinen - [h1](https://terokarvinen.com/2021/linux-palvelimet-ict4tn021-30
 [Karvinen 2016: Raportin kirjoittaminen](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
 
 [Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Governance Mechanisms](http://lib.tkk.fi/Diss/2005/isbn9529187793/isbn9529187793.pdf)
+
+[Thunderbird](https://www.thunderbird.net/en-US/)
+
+[Krita](https://krita.org/en/)
+
+[VLC media player](https://www.videolan.org/)
