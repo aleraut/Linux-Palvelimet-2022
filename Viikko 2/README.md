@@ -127,7 +127,7 @@ Grepin avulla sain esimerkiksi tiedostosta haettua hakusanalla tietyn rivin teks
 
 Päivitin Linux ohjelmat ja asensin tietoturvapäivitykset komennoilla sudo apt-get update ja sudo apt-get upgrade.
 
-![](kuvat/aptupdate)
+![](kuvat/aptupdate.png)
 
 ## Lähteet
 
