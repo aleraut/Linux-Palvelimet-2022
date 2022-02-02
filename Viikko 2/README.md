@@ -30,7 +30,9 @@
 #### YCombinator Hacker News
 
 - Tehtävä tehty 02.02.22. Luin tehtävänannosta vapaaehtoinen ja ymmärsin väärin, sillä tarkoitus oli valita artikkeli vapaaehtoisesti.
-- 
+- Charm - Työväline jolla komentorivistä saa tehtyä kivemman näköisen
+- Kommentoijien mielestä yllättävän hyvin tehty ja hauska käyttää
+- Ainoa turvallisuusriski on julkisten avaimien jako, eli ei periaatteessa ole ollenkaan riskejä.
 
 
 ### a) FHS. Esittele kansiot.
