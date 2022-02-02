@@ -7,6 +7,7 @@
   - [Tehtävät](#tehtävät)
     - [z) Lue ja tiivistä](#z-lue-ja-tiivistä)
       - [Karvinen 2020: Command Line Basics Revisited](#karvinen-2020-command-line-basics-revisited)
+      - [YCombinator Hacker News](#ycombinator-hacker-news)
     - [a) FHS. Esittele kansiot.](#a-fhs-esittele-kansiot)
     - [b) My CLI](#b-my-cli)
     - [c) Tukki. Aiheuta lokiin kaksi eri tapahtumaa.](#c-tukki-aiheuta-lokiin-kaksi-eri-tapahtumaa)
@@ -25,6 +26,11 @@
 - Helpoimmat tekstieditorit ovat Pico ja Nano.
 - Ainoastaa korkeat etuoikeudet vaativat operaatiot ajetaan sudo -komennolla.
 - sudo apt-get on tärkeä ohjelmien asentamiseen liittyvä komento.
+
+#### YCombinator Hacker News
+
+- Tehtävä tehty 02.02.22. Luin tehtävänannosta vapaaehtoinen ja ymmärsin väärin, sillä tarkoitus oli ilmeisesti valita artikkeli vapaaehtoisesti.
+- 
 
 
 ### a) FHS. Esittele kansiot.
