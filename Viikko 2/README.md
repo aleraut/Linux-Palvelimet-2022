@@ -29,7 +29,7 @@
 
 #### YCombinator Hacker News
 
-- Tehtävä tehty 02.02.22. Luin tehtävänannosta vapaaehtoinen ja ymmärsin väärin, sillä tarkoitus oli ilmeisesti valita artikkeli vapaaehtoisesti.
+- Tehtävä tehty 02.02.22. Luin tehtävänannosta vapaaehtoinen ja ymmärsin väärin, sillä tarkoitus oli valita artikkeli vapaaehtoisesti.
 - 
 
 
