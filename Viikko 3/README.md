@@ -56,6 +56,8 @@ HTML-sivun piti olla validi, joten muokkasin html-tiedostoa "micro" komennolla, 
 
 ![](kuvat/htmlcheck.png)
 
+![](kuvat/alerautkoti.png)
+
 
 ### d) Surffaa oman palvelimesi weppisivuja
 
@@ -63,7 +65,7 @@ Etsin apachen lokitiedot "/var/log/apache2" -hakemistosta. En aluksi saanut oike
 
 ![](kuvat/log.png)
 
-Kuvasta näkee kaksi ns. riviä, jotka molemmat alkavat ip laitteeni ip-osoitteella 127.0.0.1. Tämän jälkeen näkyy päivämäärä ja tapahtuman kellonaika, sekä aikavyöhyke. Sen jälkeen näkyy haettu osoite (ensimmäisessä rivissä näkyy "~" nimen edessä ja toisessa ei). Numero 200 kertoo ensimmäisellä rivillä onnistuneesta latauksesta ja numero 404 kertoo epäonnistuneesta hausta (not found). Lopussa näkyy vielä selain-Mozilla ja käyttöjärjestelmä Linux. Muista tiedoista en ole varma.
+Kuvasta näkee kaksi ns. riviä, jotka molemmat alkavat laitteeni ip-osoitteella 127.0.0.1. Tämän jälkeen näkyy päivämäärä ja tapahtuman kellonaika, sekä aikavyöhyke. Sen jälkeen näkyy haettu osoite (ensimmäisessä rivissä näkyy "~" nimen edessä ja toisessa ei). Numero 200 kertoo ensimmäisellä rivillä onnistuneesta latauksesta ja numero 404 kertoo epäonnistuneesta hausta (not found). Lopussa näkyy vielä selain-Mozilla ja käyttöjärjestelmä Linux. Muista tiedoista en ole varma.
 
 
 ### e) Vaihda Apachen esimerkkisivu johonkin lyhyeen sivuun
