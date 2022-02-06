@@ -16,7 +16,7 @@
 
 ### a) Asenna Apache
 
-Ensimmäisenä päivitin pakettilistan komennolla sudo apt-get update, jonka jälkeen asensin apachen komennolla sudo apt-get install apache2.
+Ensimmäisenä päivitin pakettilistan komennolla sudo apt-get update, jonka jälkeen asensin apachen komennolla sudo apt-get install apache2. Komennolla "sudo service apache2 start" varmistetaan, että apache käynnistyy.
 
 ![](kuvat/apacheinstall.png)
 
@@ -59,10 +59,22 @@ HTML-sivun piti olla validi, joten muokkasin html-tiedostoa "micro" komennolla, 
 
 ### d) Surffaa oman palvelimesi weppisivuja
 
+Etsin apachen lokitiedot "/var/log/apache2" -hakemistosta. En aluksi saanut oikeuksia sen lukemiseen, joten tein itsestäni root käyttäjän komennolla "sudo -i". Olisi varmaan ollut parempikin keino, mutta en keksinyt. Apache2 hakemistossa aloin seuraamaan access.log -tiedostoa komennolla "tail -f access.log". Päivitin omaa palvelintani selaimessa, ja tein virheellisen yrityksen poistamalla "~"-merkin nimen edestä.
 
+![](kuvat/log.png)
+
+Kuvasta näkee kaksi ns. riviä, jotka molemmat alkavat ip laitteeni ip-osoitteella 127.0.0.1. Tämän jälkeen näkyy päivämäärä ja tapahtuman kellonaika, sekä aikavyöhyke. Sen jälkeen näkyy haettu osoite (ensimmäisessä rivissä näkyy "~" nimen edessä ja toisessa ei). Numero 200 kertoo ensimmäisellä rivillä onnistuneesta latauksesta ja numero 404 kertoo epäonnistuneesta hausta (not found). Lopussa näkyy vielä selain-Mozilla ja käyttöjärjestelmä Linux. Muista tiedoista en ole varma.
 
 
 ### e) Vaihda Apachen esimerkkisivu johonkin lyhyeen sivuun
+
+Vaihdoin apachen esimerkkisivun localhost-nettisivulla menemällä annettuun hakemistosijaintiin "/var/www/html/", ja siellä muokkasin index.html tiedostoa komennolla "micro index.html".
+
+![](kuvat/wwwhtml.png)
+
+![](kuvat/microlocal.png)
+
+![](kuvat/uusilocal.png)
 
 
 ## Lähteet
@@ -70,5 +82,3 @@ HTML-sivun piti olla validi, joten muokkasin html-tiedostoa "micro" komennolla, 
 terokarvinen.com tehtävänanto - [h3](https://terokarvinen.com/2021/linux-palvelimet-ict4tn021-3018/#h3)
 
 [Install Apache Web Server on Ubuntu](https://terokarvinen.com/2008/install-apache-web-server-on-ubuntu-4/)
-
-[Instant Firewall – sudo ufw enable](https://terokarvinen.com/2016/instant-firewall-sudo-ufw-enable/)
