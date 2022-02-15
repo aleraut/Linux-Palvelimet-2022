@@ -2,7 +2,7 @@
 
 ## Sisällysluettelo
 
-- [h3 | Aleksis Rautiainen](#h3--aleksis-rautiainen)
+- [h4 | Aleksis Rautiainen](#h4--aleksis-rautiainen)
   - [Sisällysluettelo](#sisällysluettelo)
   - [Tehtävät](#tehtävät)
     - [z) Lue ja tiivistä](#z-lue-ja-tiivistä)
