@@ -37,23 +37,62 @@
 
 ### a) Vuokraa ja asenna oma julkinen palvelin Internettiin
 
+Ensin menin [DigitalOcean.comiin](digitalocean.com) ja loin itselleni GitHub Education paketin avulla käyttäjän. DigitalOceanissa tein itselleni Debian Dropletin nimeltä harjoitteludroplet. Droplettia tehdessä valitsin Debianin, CPU asetukseksi halvimman vaihtoehdon ja datacentteriksi Frankfurtin.
+
+![](kuvat/first.png)
+
+![](kuvat/debian.png)
+
+![](kuvat/5dollar.png)
+
+![](kuvat/droplet.png)
+
+Seuraavaksi yritin asentaa palvelinta. Kirjauduin terminaalin kautta palvelimelle.
+
+![](kuvat/palvelimelle.png)
+
+Sitten tein reiän SSH:ta varten ja aktivoin palomuurin.
+
+![](kuvat/firewall.png)
+
+Seuraavaksi tein itselleni käyttäjän.
+
+![](kuvat/käyttäjä.png)
+
+Sitten kokeilin toimivuutta. Hetken meni keksiä millä osoitteella kirjaudun, mutta käytin lopulta IP-osoitetta ja pääsin uudelle käyttäjälle.
+
+![](kuvat/testaus.png)
+
+Yritin sulkea Root käyttäjää, mutta uudelleenkäynnistyksessä tuli error, jota en osannut korjata.
+
+![](kuvat/rootlogin.png)
+
+![](kuvat/error.png)
 
 
 ### d) Suojaa palvelin tulimuurilla
 
+Palvelimen suojaus on tehty kohdassa a.
 
 
 ### e) Laita koneellesi Apache weppipalvelin
 
+En osannut korjata kohdassa a tapahtunutta erroria, jonka takia en päässyt enää käsiksi Palvelimeen käyttäjänä Apachen luontia varten. Odotan seuraavaan tuntiin ohjeita varten ja korjaan tapahtumat paremmalla tiedolla.
+
+![](kuvat/refused.png)
 
 
 ### f) Päivitä palvelimesi kaikki ohjelmat
 
+Päivitykset tapahtuvat komennolla sudo apt-get update ja sudo apt-get upgrade. Yritin mennä palvelimelle root käyttäjänä, mutta olen saanut itseni nyt lukkojen taakse enkä osaa ottaa enää yhteyttä palvelimeen.
 
+![](kuvat/rootrefused.png)
 
 ### g) Etsi lokeistasi merkkejä murtautumisyrityksistä ja analysoi ne
 
+Palvelimen logit taitaa löytyä palvelimen etäkäytöstä johon en pääse käsiksi, sillä en löydä niitä ainakaan oman laitteeni logeista.
 
+![](kuvat/log.png)
 
 ## Lähteet
 
