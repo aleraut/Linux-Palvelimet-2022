@@ -22,9 +22,17 @@
 
 #### Karvinen 2017: First steps on a New Virtual Private Server
 
+- Ohje virtuaalisen yksityisen palvelimen konfiguroimiseen
+- Ensin pitää tehdä uusi virtuaalinen palvelin DigitalOceanissa, ja asettaa palomuuri jossa on kulkureitti
+- Asenna sudolla käyttäjäoikeudet
+- Sulje root käyttäjä, päivitä softa ja aloita käyttö
 
 #### Karvinen 2018: Name Based Virtual Hosts on Apache
 
+- Apachen avulla on mahdollista olla monta eri domainia samalla IP-osoitteella
+- Lataa ja konfiguroi webbi palvelin
+- Lisää sudoeditillä uusi nimipohjainen virtuaalihosti
+- Luo weppisivu normaalina käyttäjänä ja testaa
 
 
 ### a) Vuokraa ja asenna oma julkinen palvelin Internettiin
